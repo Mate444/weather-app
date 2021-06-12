@@ -1,0 +1,15 @@
+.SearchBarAll{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.SearchBarInput{
+
+}
+
+.SearchBarButton{
+    width: 5rem;
+}
+
