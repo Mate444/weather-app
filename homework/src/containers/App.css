@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+  background-image: url('https://image.pbs.org/poster_images/assets/nvcl_vid_making_thumb.jpg');
+  background-size: cover; 
+  height: 100vh;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  background-color: darkblue;
+}
