@@ -10,7 +10,7 @@ class City extends React.Component{
     componentDidMount(){
         const apiKey = '320f5fa25ef8a520ca0ae532bd5adb26';
         const id= this.props.match.params.cityId;
-        fetch(`http://api.openweathermap.org/data/2.5/weather?id=${id}&appid=${apiKey}`)
+        fetch(`https://api.openweathermap.org/data/2.5/weather?id=${id}&appid=${apiKey}`)
         .then(r => r.json())
         .then((resource) => {
             console.log(resource)
