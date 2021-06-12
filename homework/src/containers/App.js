@@ -49,7 +49,7 @@ function App() {
     <div className="App">
       <div>
         <Route
-      exact path={['/', '/about', '/:cityId']} 
+      exact path={['/', '/about', '/city/:cityId']} 
       render={() => <Nav onSearch={onSearch}/>}
       />
       </div>
